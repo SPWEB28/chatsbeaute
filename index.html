@@ -96,32 +96,6 @@
       color: var(--grey); font-size: 0.9rem; letter-spacing: 0.05em;
     }
 
-    /* Features */
-    .features {
-      background: var(--copper-pale);
-      padding: 4.5rem 1.5rem;
-    }
-    .features-inner { max-width: 1100px; margin: 0 auto; }
-    .features h2 {
-      text-align: center; font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 2.8rem;
-    }
-    .cards {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: #fff; border-radius: 16px; padding: 2rem 1.8rem;
-      border: 1px solid rgba(181, 118, 74, 0.15);
-      transition: transform 0.25s, box-shadow 0.25s;
-    }
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 18px 40px -20px rgba(181, 118, 74, 0.4);
-    }
-    .card .icon { font-size: 1.7rem; margin-bottom: 0.9rem; }
-    .card h3 { font-size: 1.35rem; margin-bottom: 0.5rem; }
-    .card p { color: var(--grey); font-size: 0.95rem; }
-
     /* About */
     .about {
       max-width: 760px; margin: 0 auto; padding: 5rem 1.5rem; text-align: center;
@@ -155,7 +129,6 @@
       <a href="/"><img src="/logo.png" alt="Chats Beauté"></a>
       <ul>
         <li><a href="#video">Vidéo</a></li>
-        <li><a href="#univers">Univers</a></li>
         <li><a href="#apropos">À propos</a></li>
       </ul>
     </nav>
@@ -176,29 +149,6 @@
       </video>
     </div>
     <p class="video-caption">Plongez dans l'univers Chats Beauté</p>
-  </section>
-
-  <section class="features" id="univers">
-    <div class="features-inner">
-      <h2>Notre univers</h2>
-      <div class="cards">
-        <div class="card">
-          <div class="icon">🐾</div>
-          <h3>Soins &amp; toilettage</h3>
-          <p>Les bons gestes et les meilleurs produits pour un pelage soyeux et une hygiène irréprochable.</p>
-        </div>
-        <div class="card">
-          <div class="icon">✨</div>
-          <h3>Bien-être félin</h3>
-          <p>Alimentation, confort, équilibre : tout ce qu'il faut pour un chat épanoui au quotidien.</p>
-        </div>
-        <div class="card">
-          <div class="icon">👑</div>
-          <h3>Élégance royale</h3>
-          <p>Accessoires et inspirations pour offrir à votre chat le raffinement qu'il mérite.</p>
-        </div>
-      </div>
-    </div>
   </section>
 
   <section class="about" id="apropos">
